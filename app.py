@@ -13,11 +13,19 @@
 #     print("No name found")
 
 # another way
-names = ["pohn", "aane", "Doe"]
+# names = ["pohn", "aane", "Doe"]
 
-for name in names:
-    if name.startswith('J'):
-        print(name)
-        break
+# for name in names:
+#     if name.startswith('J'):
+#         print(name)
+#         break
+# else:
+#     print("No name found")
+
+# Program that takes input until 5 is entered from user
+guess = None
+
+while guess != 5:
+    guess = int(input("num : "))
 else:
-    print("No name found")
+    print("You entered 5")
